@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">简易天气查询</string>
+    <string name="action_search">查询</string>
+    <string name="action_share">分享</string>
+    <string name="city">城市</string>
+    <string name="temp">温度</string>
+    <string name="date">日期</string>
+    <string name="wind">风力</string>
+    <string name="weather">天气</string>
+    <string name="sug">建议</string>
+    <string name="exit">退出</string>
+    <string name="menu_cancel">取消</string>
+    
+    <!-- The label for use as a searchable item -->
+    <string name="search_label">城市天气</string>
+
+    <!-- The hint text that appears in the search box. -->
+    <string name="search_hint">城市天气查询</string>
+
+
+    <!-- The description that will show up in the search settings for this source.  -->
+    <string name="settings_description">输入城市名</string>
+</resources>

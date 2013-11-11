@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/city"
+        style="@style/TextViewSize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/city" />
+
+    <TextView
+        android:id="@+id/cityname"
+        style="@style/EditTextSize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/temp"
+        style="@style/TextViewSize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/temp" />
+
+    <TextView
+        android:id="@+id/temperature"
+        style="@style/EditTextSize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/TextViewSize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/date" />
+
+    <TextView
+        android:id="@+id/date"
+        style="@style/EditTextSize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/wind"
+        style="@style/TextViewSize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wind" />
+
+    <TextView
+        android:id="@+id/winddirection"
+        style="@style/EditTextSize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/weather"
+        style="@style/TextViewSize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/weather" />
+
+    <TextView
+        android:id="@+id/weathernow"
+        style="@style/EditTextSize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/sug"
+        style="@style/TextViewSize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sug" />
+
+    <TextView
+        android:id="@+id/suggest"
+        style="@style/EditTextSize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
